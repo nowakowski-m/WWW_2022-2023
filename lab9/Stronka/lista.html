@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <title>Lista zakupów</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="text-center">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <form id="shopping-form" style="width: 200px;">
+            <div class="form-group">
+              <div class="list-name-input">
+                <input type="text" class="form-control" id="shopping-list-name" placeholder="Nazwa listy">
+              </div>
+              <div class="list-create-button">
+                <button type="submit" class="btn btn-primary">+</button>
+              </div>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div id="shopping-lists" class="my-5">
+    </div>
+  </div>
+</body>
+<script src="app.js"></script>
+
+</html>

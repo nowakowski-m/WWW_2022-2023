@@ -1,0 +1,50 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter:blur(6px);
+  }
+
+.carousel-item {
+    position: fixed;
+    margin-top: 4%;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 43%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.carousel-control-prev {
+    margin-left: 43%;
+    margin-bottom: 2%;
+}
+
+.carousel-control-next {
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.modal-button {
+    margin-left: 5%;
+}
+
+/* wiem że mogłem dać jakąś klasę dodatkową np. add-shadow do tych wszystkich rzeczy */
+/* ktore chcialem ale juz nie chcialem zmieniac kodu w html bo tam sie duzo tego narobilo */
+
+.form-control {
+  box-shadow: 0px 0px 2px black;
+}
+
+.form-select {
+  box-shadow: 0px 0px 2px black;
+}
+
+.form-check-input {
+  box-shadow: 0px 0px 2px black;
+}
+
+.btn-primary {
+  box-shadow: 0px 0px 3px black;
+}

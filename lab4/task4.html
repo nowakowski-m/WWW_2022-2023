@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <title>Task 4</title>
+      </head>
+    <body>
+        <script src="task5.js"></script>
+        <form id = "studentForm">
+            <label for="fname">Imię:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Nazwisko:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="age">Wiek:</label><br>
+            <input type="number" id="age" name="age" min="1" max="90"><br><br>
+
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email_text" name="email" onchange = "validateEmail()"><br><br>
+
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Mężczyzna</label><br>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Kobieta</label><br>
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Inne</label><br><br>
+
+            <label for="studies_begin">Rozpoczęcie studiów:</label><br>
+            <input type="date" id="studies_begin" name="studies_begin"><br><br>
+
+            <label for="schools">Wydział:</label><br>
+            <select>
+                <option value="Wydział Fizyki i Astronomii">Wydział Fizyki i Astronomii</option value="Wydział Architektury">
+                <option value="Wydział Architektury">Wydział Architektury</option value="Wydział Architektury">
+                <option value="Wydział Matematyki">Wydział Matematyki</option value="Wydział Architektury">
+                <option value="Wydział Chemii">Wydział Chemii</option value="Wydział Architektury">
+                </select>
+                <br><br>
+            <input type="submit" value="Dodaj" class="submit_btn" onclick = "dontReload()">
+            <input type="reset" value="Zresetuj"><br><br>
+        </form>
+
+        <table>
+            <tr>
+              <th>Imię</th>
+              <th>Naziwsko</th>
+              <th>Wiek</th>
+              <th>E-Mail</th>
+              <th>Płeć</th>
+              <th>Rozpoczęcie</th>
+              <th>Wydział</th>
+            </tr>
+
+          </table>
+    </body>
+</html>

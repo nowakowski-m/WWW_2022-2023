@@ -1,0 +1,13 @@
+td:hover:nth-child(odd)
+{
+    background: red;
+}
+td:hover:nth-child(even)
+{
+    background: blue;
+
+}
+
+.border {
+    border-style: dotted;
+}

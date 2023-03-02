@@ -1,0 +1,2 @@
+SELECT * from orders INNER JOIN orderdetails on orders.orderNumber = orderdetails.orderNumber;
+SELECT * FROM orderdetails LEFT JOIN orders ON orderdetails.orderNumber = orders.orderNumber LEFT JOIN products ON orderdetails.productCode = products.productCode WHERE (quantityOrdered > 40) AND orderDate BETWEEN {d '2004-01-01'} AND {d '2004-12-31'}
